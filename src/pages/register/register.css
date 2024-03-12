@@ -1,0 +1,52 @@
+.register{
+    font-family: "Poppins", sans-serif;
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registerTitle{
+    font-size: 50px;
+    color: #604432;
+}
+
+.registerForm{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.registerForm > label{
+    margin: 10px 0;
+}
+
+.registerForm > input{
+    padding: 10px;
+    background-color: #f7f4f1;
+    border: none;
+
+}
+
+.registerButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: #604432;
+    color: #f7f4f1;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+}
+
+.registerLoginButton{
+    margin-top: 10px;
+    cursor: pointer;
+    background-color: #604432;
+    color: #f7f4f1;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 16px;
+    font-size: 14px;
+}
